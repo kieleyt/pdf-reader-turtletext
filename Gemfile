@@ -1,9 +1,10 @@
 source "http://rubygems.org"
+ruby '2.4.0'
 
 gem 'pdf-reader', '1.1.1'
 
 group :development do
-  gem 'bundler', '~> 1.1.4'
+  # gem 'bundler', '~> 1.1.4'
   gem 'jeweler', '~> 1.6.4'
 end
 
@@ -14,5 +15,5 @@ group :development, :test do
   # prawn for generating PDFs for tests
   gem 'prawn', '~> 0.12.0'
   # guard for auto-running tests
-  gem 'guard-rspec', '~> 1.2.0'
+  # gem 'guard-rspec', '~> 1.2.0'
 end
