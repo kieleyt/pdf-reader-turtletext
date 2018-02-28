@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-ruby '2.4.0'
+ruby '2.2.2'
 
 gem 'pdf-reader', '~> 1.4.0'
 
