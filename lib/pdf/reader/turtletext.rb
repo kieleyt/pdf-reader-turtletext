@@ -50,6 +50,7 @@ class PDF::Reader::Turtletext
   # Fuzz factors: +y_precision+
   def fuzzed_y(input)
     output = []
+    puts input
     input.keys.sort.reverse.each do |precise_y|
       matching_y = output.map(&:first).select{|new_y| (new_y - precise_y).abs < y_precision }.first || precise_y
       y_index = output.index{|y| y.first == matching_y }
