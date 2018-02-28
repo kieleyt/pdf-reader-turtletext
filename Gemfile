@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 ruby '2.4.0'
 
-gem 'pdf-reader', '~> 1.2.0'
+gem 'pdf-reader', '~> 1.4.0'
 
 group :development do
   # gem 'bundler', '~> 1.1.4'
